@@ -2,8 +2,8 @@
 
 /**
  * main - is the main function
- *
- * Return: always 0
+ *Description: print some string
+ * Return: returns 0
  */
 
 int main(void)
