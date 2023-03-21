@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- * print_sign - Determines the sign of the input number.
+ * print_sign - Determines if the input number greater, equal or less than zero. 
  * @n: The character in asqii code.
  *Return: 1 is greater than zero. 0 is zero. -1 is less than zero.
  */
