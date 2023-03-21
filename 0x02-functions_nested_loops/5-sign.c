@@ -2,8 +2,7 @@
 /**
  * print_sign - Determines the sign of the input number.
  * @c: The character in asqii code.
- *
- * Return: 1 (positive). 0 (zero). -1(negative).
+ *Return: 1 is greater than zero. 0 is zero. -1 is less than zero.
  */
 
 int print_sign(int n)
