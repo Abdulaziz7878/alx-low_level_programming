@@ -4,8 +4,7 @@
  *
  * Return: ...
  */
-
-void times_table(void)
+void times_table(void)
 {
 	int X, Y;
 	int tab = 0;
