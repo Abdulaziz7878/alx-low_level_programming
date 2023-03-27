@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *reset_to_98 - takes a pointer to an int
-  and updates thevalue it points to 98
+ *reset_to_98 - takes a pointer and updates thevalue it to 98
  *
  * @n: pointer to n
  *
