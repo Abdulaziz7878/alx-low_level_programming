@@ -1,4 +1,19 @@
 #include "main.h"
+#include <stdio.h>
+
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ *
+ * @n: int
+ *
+ * Return: int square root.
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (square_root(n, 1));
+}
+
 
 /**
  * square_root - returns the natural square root of a number
