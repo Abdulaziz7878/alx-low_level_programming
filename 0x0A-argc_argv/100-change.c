@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 	char *p;
 
 	int cents[] = {25, 10, 5, 2};
+
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -24,7 +25,8 @@ int main(int argc, char *argv[])
 	if (!*p)
 	{
 		while (total > 1)
-		{for (i = 0; i < sizeof(cents[i]); i++)
+		{
+			for (i = 0; i < sizeof(cents[i]); i++)
 			{
 				if (total >= cents[i])
 				{
